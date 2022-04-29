@@ -1,0 +1,17 @@
+{
+  "name": "com.maetschke.simpleui",
+  "version": "0.1.0",
+  "displayName": "Custom UI",
+  "description": "This is a package in which you have many different options to enhance your game with various UI Elements.",
+  "unity": "2020.3",
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
+  "author": {
+    "name": "Justin Maetschke",
+    "email": "justin.maetschke@gmail.com",
+    "url": "https://github.com/rubin54"
+  },
+  "type": "tool",
+  "unityRelease": "0a9"
+}
