@@ -13,5 +13,23 @@
     "url": "https://github.com/rubin54"
   },
   "type": "tool",
-  "unityRelease": "0a9"
+  "unityRelease": "0a9",
+  "samples": [
+    {
+      "displayName": "Tooltip System",
+      "description": "Prefab for a Tooltip System",
+      "path": "Samples/Tooltip System"
+    },
+    {
+      "displayName": "Simple Main Menu",
+      "description": "Description for sample 2.",
+      "path": "Samples/Main Menu"
+    },
+    {
+      "displayName": "LoadingScreen",
+      "description": "Description for sample 2.",
+      "path": "Samples/LoadingScreen"
+    }
+
+  ]
 }
