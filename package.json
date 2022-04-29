@@ -34,6 +34,11 @@
       "displayName": "Progress Bar",
       "description": "Description for sample 2.",
       "path": "Samples/Progress Bar"
+    },
+    {
+      "displayName": "Demo Sample",
+      "description": "Description for sample 2.",
+      "path": "Samples/Demo Sample"
     }
 
   ]

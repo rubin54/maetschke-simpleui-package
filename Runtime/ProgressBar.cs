@@ -3,7 +3,7 @@ using UnityEngine.UI;
 #if UNITY_EDITOR
 using UnityEditor;
 #endif
-namespace maetschke.simpleui.editor
+namespace maetschke.simpleui.runtime
 {
     [ExecuteInEditMode]
     public class ProgressBar : MonoBehaviour
