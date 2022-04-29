@@ -29,6 +29,11 @@
       "displayName": "LoadingScreen",
       "description": "Description for sample 2.",
       "path": "Samples/LoadingScreen"
+    },
+    {
+      "displayName": "Progress Bar",
+      "description": "Description for sample 2.",
+      "path": "Samples/Progress Bar"
     }
 
   ]
