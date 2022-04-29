@@ -7,15 +7,11 @@
 
 ## Documentation
 
-As there are many steps to developing a Unity package, the documentation is currently split into a couple of parts, each covering a specific feature or overview:
-
 - [File and Folder Structure](https://omiyagames.github.io/template-unity-package/manual/structure.html)
 - [Customizing Package Files](https://omiyagames.github.io/template-unity-package/manual/customizePackage.html)
 - [Adding Source Code and Assets](https://omiyagames.github.io/template-unity-package/manual/customizeSource.html)
 - [Adding Importable Assets](https://omiyagames.github.io/template-unity-package/manual/customizeSamples.html)
 - [Customizing Documentation](https://omiyagames.github.io/template-unity-package/manual/customizeDocumentation.html)
-
-The [author](https://github.com/rubin54) of this package also wrote a blog post on [*How to Split Up an Existing Unity Git Project into Smaller Unity Packages*](https://www.taroomiya.com/2020/04/29/how-to-split-up-an-existing-unity-git-project-into-smaller-unity-packages/).
 
 Finally, changes in the project is documented under the [change log page](https://omiyagames.github.io/template-unity-package/manual/changelog.html).
 
@@ -46,12 +42,6 @@ Unity's own Package Manager supports [importing packages through a URL to a Git 
 2. Then click on the + button on the upper-left-hand corner of the Package Manager, select "Add package from git URL..." on the context menu, then paste this repo's URL!
 
 While easier to follow than the first method, this one does not support dependency resolution and package upgrading when a new version is released.  So proceed with caution.
-
-## Generating Documentation on New Packages
-
-This package uses [DocFX](https://dotnet.github.io/docfx/) and Github Actions to auto-generate its documentation from both the comments in the source code and the Markdown files in the [`Documentation~`](/Documentation~) directory.  If templated/forked on GitHub, the new project may be configured to host its own documentation by following the instructions specified in the [Customizing Documentation](https://omiyagames.github.io/template-unity-package/manual/customizeDocumentation.html) page.
-
-For other git hosting websites, there is also has a pre-made [Doxygen](https://github.com/doxygen/doxygen) settings file in the same directory to run Doxywizard through.
 
 ## Resources
 
