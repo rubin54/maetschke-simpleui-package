@@ -34,19 +34,18 @@ namespace maetschke.simpleui.editor
 
             if (GUILayout.Button(t))
             {
-                //Application.OpenURL("http://u3d.as/W3m");
+                Application.OpenURL("");
             }
 
             GUILayout.Label("", GUI.skin.horizontalSlider);
 
-            EditorGUILayout.HelpBox("Hi guys, If you liked this demo or you used this in any of your games, " +
-                                        "then consider buying the full version from here!", MessageType.Info);
+            EditorGUILayout.HelpBox("", MessageType.Info);
 
-            if (GUILayout.Button("Buy Full Version [Asset Store]"))
+            if (GUILayout.Button(""))
             {
-                //Application.OpenURL("http://u3d.as/W3m");
+                Application.OpenURL("");
             }
-            if (GUILayout.Button("Buy Full Version [Sellfy Store - 20% OFF]"))
+            if (GUILayout.Button("]"))
             {
                 //Application.OpenURL("https://sellfy.com/p/5ujr/");
             }
@@ -58,7 +57,7 @@ namespace maetschke.simpleui.editor
             //instantiate Loading Canvas
             GameObject loadingScreen = Instantiate(Resources.Load("Prefabs/LoadingScreenCanvas")) as GameObject;
 
-            loadingScreen.name = " Simple Loading Screen";
+            loadingScreen.name = "Simple Loading Screen";
 
             Debug.Log("WIP");
         }
@@ -98,10 +97,10 @@ namespace maetschke.simpleui.editor
             //rename it
             tooltipSystem.name = "Simple Tooltip System";
 
-            GameObject testTrigger = Instantiate(Resources.Load("Prefabs/Test Canvas")) as GameObject;
-            //rename it
-            tooltipSystem.name = "Trigger Test Canvas";
-            Debug.Log("Trigger Test Canvas Created!");
+            //GameObject testTrigger = Instantiate(Resources.Load("Prefabs/Test Canvas")) as GameObject;
+            ////rename it
+            //tooltipSystem.name = "Trigger Test Canvas";
+            //Debug.Log("Trigger Test Canvas Created!");
         }
 
         [MenuItem("UI/Clear Game Data &#X", false)]
