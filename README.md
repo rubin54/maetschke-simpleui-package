@@ -17,7 +17,7 @@ Tools and Prefabs
 ## Documentation
 
 
-### Install [Unity Package Manager](https://docs.unity3d.com/Manual/upm-ui-giturl.html)
+### Install through [Unity Package Manager](https://docs.unity3d.com/Manual/upm-ui-giturl.html)
 
 Unity's own Package Manager supports [importing packages through a URL to a Git repo](https://docs.unity3d.com/Manual/upm-ui-giturl.html):
 
