@@ -7,27 +7,8 @@ namespace maetschke.simpleui.editor
     public class AddCanvases : EditorWindow
     {
         public static bool showWindow = true;
-        public static void OpenWindow()
-        {
-            if (showWindow)
-            {
-                GetWindow<AddCanvases>("Simple Main Menu");
-                GetWindow<AddCanvases>("Simple Main Menu").maxSize = new Vector2(1920, 1080); // new Vector2(265, 350);
-                GetWindow<AddCanvases>("Simple Main Menu").minSize = new Vector2(1920, 1080); // new Vector2(264, 350);
 
-                showWindow = false;
-            }
-        }
-
-        [MenuItem("UI/Support!", false, 1)]
-        public static void BuyFullVersion()
-        {
-            GetWindow<AddCanvases>("Simple Main Menu");
-            GetWindow<AddCanvases>("Simple Main Menu").maxSize = new Vector2(1920, 1080);
-            GetWindow<AddCanvases>("Simple Main Menu").minSize = new Vector2(1920, 1080);
-
-        }
-
+        #region GUI
         void OnGUI()
         {
             Texture t = (Texture)Resources.Load("abcsoft");
@@ -47,16 +28,39 @@ namespace maetschke.simpleui.editor
             }
             if (GUILayout.Button("]"))
             {
-                //Application.OpenURL("https://sellfy.com/p/5ujr/");
+                Application.OpenURL("");
             }
+        }
+
+        public static void OpenWindow()
+        {
+            if (showWindow)
+            {
+                GetWindow<AddCanvases>("Simple Main Menu");
+                GetWindow<AddCanvases>("Simple Main Menu").maxSize = new Vector2(1920, 1080); // new Vector2(265, 350);
+                GetWindow<AddCanvases>("Simple Main Menu").minSize = new Vector2(1920, 1080); // new Vector2(264, 350);
+
+                showWindow = false;
+            }
+        }
+        #endregion GUI
+
+        #region MenuItem
+        [MenuItem("UI/Support!", false, 1)]
+        public static void Github()
+        {
+            GetWindow<AddCanvases>("Simple Main Menu");
+            GetWindow<AddCanvases>("Simple Main Menu").maxSize = new Vector2(1920, 1080);
+            GetWindow<AddCanvases>("Simple Main Menu").minSize = new Vector2(1920, 1080);
+
         }
 
         [MenuItem("UI/Add/Loading Canvas &#L", false)]
         public static void AddLoadingCanvas()
         {
             //instantiate Loading Canvas
-            GameObject loadingScreen = Instantiate(Resources.Load("Prefabs/LoadingScreenCanvas")) as GameObject;
-
+            GameObject loadingScreen = Instantiate(Resources.Load("Prefabs/LoadingScreen Canvas")) as GameObject;
+            //rename it
             loadingScreen.name = "Simple Loading Screen";
 
             Debug.Log("WIP");
@@ -109,6 +113,8 @@ namespace maetschke.simpleui.editor
             PlayerPrefs.DeleteAll();
             Debug.Log("Game Data Cleared!");
         }
+        #endregion MenuItem
+
     }
 }
 

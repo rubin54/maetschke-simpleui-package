@@ -12,7 +12,7 @@
     "email": "justin.maetschke@gmail.com",
     "url": "https://github.com/rubin54"
   },
-  "type": "tool",
+  "type": "module",
   "unityRelease": "0a9",
   "samples": [
     {
@@ -40,6 +40,9 @@
       "description": "Description for sample 2.",
       "path": "Samples/Demo Sample"
     }
+  ],
 
-  ]
+  "dependencies": {
+    "com.unity.textmeshpro": "3.0.6"
+  }
 }
