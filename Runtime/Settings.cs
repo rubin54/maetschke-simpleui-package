@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 namespace maetschke.simpleui.runtime
@@ -44,6 +42,12 @@ namespace maetschke.simpleui.runtime
         {
             GameManager.instance.UnloadInventoryScene();
         }
+
+        public void CloseApplication()
+        {
+            Application.Quit();
+        }
+
     }
 }
 

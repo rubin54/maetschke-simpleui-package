@@ -506,7 +506,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 76675444}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 959983c4e34ebd1458099b0161250976, type: 3}
+  m_Script: {fileID: 11500000, guid: 4c2de4dc64e362f42a47dc87d00dce3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
@@ -515,11 +515,11 @@ MonoBehaviour:
     m_Top: 0
     m_Bottom: 0
   m_ChildAlignment: 0
-  fitType: 3
+  fitType: 4
   rows: 1
   columns: 4
-  cellSize: {x: 195, y: 480}
-  spacing: {x: 10, y: 10}
+  cellSize: {x: 197.5, y: 500}
+  spacing: {x: 5, y: 0}
   fitX: 1
   fitY: 1
 --- !u!1 &94083700
@@ -1253,8 +1253,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 97.5, y: -240}
-  m_SizeDelta: {x: 195, y: 480}
+  m_AnchoredPosition: {x: 98.75, y: -250}
+  m_SizeDelta: {x: 197.5, y: 500}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &253101485
 MonoBehaviour:
@@ -2348,8 +2348,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 712.5, y: -240}
-  m_SizeDelta: {x: 195, y: 480}
+  m_AnchoredPosition: {x: 706.25, y: -250}
+  m_SizeDelta: {x: 197.5, y: 500}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &704811864
 MonoBehaviour:
@@ -4569,8 +4569,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 302.5, y: -240}
-  m_SizeDelta: {x: 195, y: 480}
+  m_AnchoredPosition: {x: 301.25, y: -250}
+  m_SizeDelta: {x: 197.5, y: 500}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1339391905
 MonoBehaviour:
@@ -6310,10 +6310,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 249988955}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 2131267215}
+        m_TargetAssemblyTypeName: maetschke.simpleui.runtime.Settings, maetschke.simpleui.runtime
+        m_MethodName: CloseApplication
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -6605,8 +6605,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 507.5, y: -240}
-  m_SizeDelta: {x: 195, y: 480}
+  m_AnchoredPosition: {x: 503.75, y: -250}
+  m_SizeDelta: {x: 197.5, y: 500}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1710225060
 MonoBehaviour:
@@ -8281,12 +8281,12 @@ MonoBehaviour:
     m_Left: 0
     m_Right: 0
     m_Top: 0
-    m_Bottom: 0
+    m_Bottom: 50
   m_ChildAlignment: 4
   fitType: 4
   rows: 4
   columns: 1
-  cellSize: {x: 400, y: 125}
+  cellSize: {x: 400, y: 112.5}
   spacing: {x: 0, y: 50}
   fitX: 1
   fitY: 1

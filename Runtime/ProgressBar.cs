@@ -51,7 +51,6 @@ namespace maetschke.simpleui.runtime
 
             fill.color = color;
         }
-
         #endregion Methodes
     }
 }
