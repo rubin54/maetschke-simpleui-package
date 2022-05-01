@@ -1,23 +1,22 @@
 # maetschke-simpleui-package
  
-[![Template Unity Package documentation](https://github.com/OmiyaGames/template-unity-package/workflows/Host%20DocFX%20Documentation/badge.svg)](https://omiyagames.github.io/template-unity-package/) [![Ko-fi Badge](https://img.shields.io/badge/donate-ko--fi-29abe0.svg?logo=ko-fi)](https://ko-fi.com/I3I51KS8F) [![License Badge](https://img.shields.io/github/license/OmiyaGames/template-unity-package)](/LICENSE.md)
+[![Ko-fi Badge](https://img.shields.io/badge/donate-ko--fi-29abe0.svg?logo=ko-fi)](https://ko-fi.com/justinmaetschke) [![License Badge](https://img.shields.io/github/license/OmiyaGames/template-unity-package)](/LICENSE.md)
 
 ![Unity Package Manager]()
 
+## Content
+
+Tooltip System
+
+Main Menu
+
+LoadingScreen
+
+Tools and Prefabs
 
 ## Documentation
 
-- [File and Folder Structure](https://omiyagames.github.io/template-unity-package/manual/structure.html)
-- [Customizing Package Files](https://omiyagames.github.io/template-unity-package/manual/customizePackage.html)
-- [Adding Source Code and Assets](https://omiyagames.github.io/template-unity-package/manual/customizeSource.html)
-- [Adding Importable Assets](https://omiyagames.github.io/template-unity-package/manual/customizeSamples.html)
-- [Customizing Documentation](https://omiyagames.github.io/template-unity-package/manual/customizeDocumentation.html)
-
-Finally, changes in the project is documented under the [change log page](https://omiyagames.github.io/template-unity-package/manual/changelog.html).
-
 ## Install
-
-For ease of updating installation instructions in future projects, a template instruction is specified below.  Note that [instructions on using OpenUPM's](#through-openupm) to install *this* template package is merely theoretical, as this project is not actually hosted in OpenUPM:
 
 There are two common methods for installing this package.
 
@@ -45,11 +44,11 @@ While easier to follow than the first method, this one does not support dependen
 
 ## Resources
 
-- [Documentation](https://omiyagames.github.io/template-unity-package/)
+- [Documentation]()
 - [Change Log](/CHANGELOG.md)
 
 ## LICENSE
 
 Overall package is licensed under [MIT](/LICENSE.md), unless otherwise noted in the [3rd party licenses](/THIRD%20PARTY%20NOTICES.md) file and/or source code.
 
-Copyright (c) 2019-2022 Omiya Games
+Copyright (c) 2022 Justin Mätschke
