@@ -14,6 +14,11 @@
   },
   "type": "tool",
   "unityRelease": "0a9",
+
+  "dependencies": {
+    "com.unity.textmeshpro": "3.0.6"
+  },
+
   "samples": [
     {
       "displayName": "Tooltip System",
@@ -22,27 +27,23 @@
     },
     {
       "displayName": "Simple Main Menu",
-      "description": "Description for sample 2.",
+      "description": "A simple main menu layout",
       "path": "Samples/Main Menu"
     },
     {
       "displayName": "LoadingScreen",
-      "description": "Description for sample 2.",
+      "description": "LoadingScreen with Tips and two ProgressBars to indicate progress.",
       "path": "Samples/LoadingScreen"
     },
     {
       "displayName": "Progress Bar",
-      "description": "Description for sample 2.",
+      "description": "Two complete Progress bar types which you can add like a gameObject under UI",
       "path": "Samples/Progress Bar"
     },
     {
       "displayName": "Demo Sample",
-      "description": "Description for sample 2.",
+      "description": "Some Demo Samples with LoadingScreen and MainMenu and some effects.",
       "path": "Samples/Demo Sample"
     }
-  ],
-
-  "dependencies": {
-    "com.unity.textmeshpro": "3.0.6"
-  }
+  ]
 }
