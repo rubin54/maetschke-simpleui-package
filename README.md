@@ -1,4 +1,4 @@
-# maetschke-simpleui-package
+# Maetschke-SimpleUI-Package
  
 [![Ko-fi Badge](https://img.shields.io/badge/donate-ko--fi-29abe0.svg?logo=ko-fi)](https://ko-fi.com/justinmaetschke) [![License Badge](https://img.shields.io/github/license/OmiyaGames/template-unity-package)](/LICENSE.md)
 
