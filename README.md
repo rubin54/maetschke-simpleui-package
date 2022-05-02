@@ -6,13 +6,13 @@
 
 ## Content
 
-Tooltip System
+1. Main Menu
 
-Main Menu
+2. LoadingScreen
 
-LoadingScreen
+3. Tooltip System
 
-Tools and Prefabs
+4. Tools and Prefabs
 
 ## Documentation
 
